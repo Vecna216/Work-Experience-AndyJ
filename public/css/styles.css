@@ -1,9 +1,8 @@
 /* Calico Media marketing site */
-html, body {
-  max-width: 100%;
+html,
+body {
   overflow-x: hidden;
 }
-
 
 :root {
   --ink: #1f1a17;
@@ -75,7 +74,7 @@ img {
 }
 
 .container {
-  max-width: 1200vw;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -838,7 +837,7 @@ img {
   list-style-type: none;
 }
 
-@media (max-width: 925px) {
+@media (max-width: 1100px) {
   .hero-inner {
     display: flex;
     flex-direction: column-reverse;

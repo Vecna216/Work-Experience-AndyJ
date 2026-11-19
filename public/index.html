@@ -1,29 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Calico Media | Growth planning for local businesses</title>
-  <meta name="description" content="Calico helps local businesses grow their customer base with specific, measurable, realistic goals and a rapid growth plan you can run every week.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <header class="site-header site-header--home">
-    <div class="container">
-      <a class="logo" href="index.html"><span class="logo-mark"></span>Calico Media</a>
-      <nav aria-label="Main">
-        <ul class="nav-links">
-          <li><a href="features.html">Features</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="#playbook">Growth playbook</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="https://app.calicomedia.co/login">Log in</a></li>
-          <li><a class="btn" href="contact.html">Book a demo</a></li>
-        </ul>
+ <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calico Media | Growth planning for local businesses</title>
+    <meta
+      name="description"
+      content="Calico helps local businesses grow their customer base with specific, measurable, realistic goals and a rapid growth plan you can run every week."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/menu.js"></script>
+    <script
+      src="https://kit.fontawesome.com/279f2c02eb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="site-header site-header--home">
+      <div class="container">
+        <a class="logo" href="index.html"
+          ><span class="logo-mark"></span>Calico Media</a
+        >
+        <nav aria-label="Main">
+          <ul class="nav-links nav-index">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="#playbook">Growth playbook</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://app.calicomedia.co/login">Log in</a></li>
+            <li><a class="btn" href="contact.html">Book a demo</a></li>
+          </ul>
+          <a class="btn__menu">
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </a>
+          <div class="menu__backdrop" style="visibility: hidden">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__link"><a href="features.html">Features</a></li>
+              <li class="menu__link"><a href="pricing.html">Pricing</a></li>
+              <li class="menu__link">
+                <a href="#playbook">Growth playbook</a>
+              </li>
+              <li class="menu__link"><a href="about.html">About</a></li>
+              <li class="menu__link"><a href="contact.html">Contact</a></li>
+              <li class="menu__link">
+                <a href="https://app.calicomedia.co/login">Log in</a>
+              </li>
+              <li class="menu__link">
+                <a class="btn" href="contact.html">Book a demo</a>
+              </li>
+            </ul>
       </nav>
     </div>
   </header>

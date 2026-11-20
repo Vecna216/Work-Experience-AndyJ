@@ -746,6 +746,14 @@ img {
   padding-top: 24px;
 }
 
+.honeypot {
+  position: absolute;
+  left: -10000px; 
+  width: 1px; 
+  height: 1px; 
+  overflow: hidden;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
@@ -800,3 +808,5 @@ img {
     grid-template-columns: 1fr;
   }
 }
+
+
